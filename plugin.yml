@@ -1,0 +1,9 @@
+name: StickFight
+author: Skaliert
+version: 1.0
+main: me.skaliert.stickfight.StickFight
+
+commands:
+  stickfight:
+    description: Main command of StickFight
+    aliases: [sf, stick]

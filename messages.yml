@@ -1,0 +1,44 @@
+general:
+  prefix: '&7[&cStickFight&7]'
+  server-full: '&cThe server is full.'
+  server-stopping: '&cThe server is stopping.'
+command:
+  usage:
+    - '%prefix% /stickfight setpos <1/2> - &cSet the player positions&7.'
+    - '%prefix% /stickfight setspawn - &cSet the spawn point&7.'
+    - '%prefix% /stickfight setspectator - &cSet the spectator spawn point&7.'  
+  successful:
+    player-position-1: '%prefix% You set the player position &c1&7.'
+    player-position-2: '%prefix% You set the player position &c2&7.'
+    spawn-point: '%prefix% You set the &cspawn point&7.'
+    spectator-spawn-point: '%prefix% &7You set the &cspectator spawn point&7.'
+  failure:
+    must-be-a-player: '%prefix% &cYou must be a player.'
+    no-permissions: '%prefix% &cYou do not have enough permissions.'
+countdown:
+  lobby-countdown:
+    countdown: '%prefix% The game starts in &c%seconds% &7seconds.'
+    countdown-one: '%prefix% The game starts in &c%seconds% &7second.'
+    countdown-reset: '%prefix% &cThe countdown has been reset.'
+    countdown-end: '%prefix% All players will be teleported.'
+  idle:
+    idle: '%prefix% &c%missing% &7players are missing.'
+    idle-one: '%prefix% &c%missing% &7player is missing.'
+  prepare-countdown:
+    countdown: '%prefix% The fight begins in &c%seconds% &7seconds.'
+    countdown-one: '%prefix% The fight begins in &c%seconds% &7second.'
+    countdown-end: '%prefix% The fight begins.'
+  ending-countdown:
+    countdown: '%prefix% The server will stop in &c%seconds% &7seconds.'
+    countdown-one: '%prefix% The server will stop in &c%seconds% &7second.'
+scoreboard:
+  title: '&cPoints'
+game:
+  player-joined: '%prefix% &c%player%&7 has joined &c(%players%/2)&7.'
+  player-left: '%prefix% &c%player%&7 has quit &c(%players%/2)&7.'
+  player-left-while-playing: '%prefix% &c%player% &7has quit the game.'
+  player-fell-down: '%prefix% &c%player%&7 fell down.'
+  win:
+    title: '&c%player% &7has won.'
+    broadcast: '%prefix% &c%player% &7has won the game.'
+  timer: '&c> &f%timer% &c<'

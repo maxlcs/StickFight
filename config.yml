@@ -1,0 +1,12 @@
+countdown:
+  lobby-countdown: 30
+  prepare-countdown: 5
+  ending-countdown: 10
+idle:
+  idle-period: 15
+points:
+  points-to-win: 10
+extras:
+  show-scoreboard: true
+  play-sounds: true
+  show-timer: true
